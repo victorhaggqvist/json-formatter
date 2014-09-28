@@ -1,3 +1,7 @@
+# v0.5.9
+## Fixes
+- Fallback on utf8 decode fail
+- [code style]  make consistent
 # v0.5.8
 ## Fixes
 - UTF-8 decode non-url strings
