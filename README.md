@@ -3,8 +3,9 @@ JSON Formatter
 
 Chrome extension for printing JSON and JSONP nicely when you visit it 'directly' in a browser tab.
 
-Features
---------
+Forked from https://github.com/callumlocke/json-formatter
+
+#Features
 
 * JSONP support
 * Fast, even on long pages
@@ -17,8 +18,7 @@ Features
 
 A background worker is used to prevent the UI freezing when processing very long JSON pages.
 
-Installation
-------------
+#Installation
 
 **Option 1** – just install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/bcjindcccaagfpapjjmafapmmgkkhgoa).
 
