@@ -502,8 +502,8 @@
             // If still running, we now have obj, which is valid JSON.
 
             // Ensure it's not a number or string (technically valid JSON, but no point prettifying it)
-              if (typeof obj !== 'object' && typeof obj !== 'array') {
-                port.postMessage(['NOT JSON', 'technically JSON but not an object or array']) ;
+              if (typeof obj !== 'object') {
+                port.postMessage(['NOT JSON', 'technically JSON but not an object']) ;
                 port.disconnect() ;
                 return ;
               }
