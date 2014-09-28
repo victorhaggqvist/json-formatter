@@ -150,6 +150,13 @@
               || keyName === 'href');
     }
 
+    /**
+     * UTF-8 decode string
+     */
+    function decode_utf8(s) {
+      return decodeURIComponent(escape(s));
+    }
+
     // function spin(seconds) {
     //   // spin - Hog the CPU for the specified number of seconds
     //   // (for simulating long processing times in development)
@@ -284,7 +291,7 @@
                 innerStringEl.appendChild(innerStringA) ;
               }
               else {
-                innerStringEl.innerText = escapedString ;
+                innerStringEl.innerText = decode_utf8(escapedString);
               }
               valueElement = templates.t_string.cloneNode(false) ;
               valueElement.appendChild(templates.t_dblqText.cloneNode(false)) ;
