@@ -145,9 +145,9 @@
      * useful for relative URLs.
      */
     function isURL(keyName, value) {
-      return ((value[0] === 'h' && value.substring(0, 4) === 'http')
-              || keyName === 'url'
-              || keyName === 'href');
+      return ((value[0] === 'h' && value.substring(0, 4) === 'http') ||
+              keyName === 'url' ||
+              keyName === 'href');
     }
 
     /**
