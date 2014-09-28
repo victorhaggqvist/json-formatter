@@ -1,9 +1,9 @@
 {
   "name": "JSON Formatter",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "manifest_version": 2,
   "description": "Makes JSON easy to read. Open source.",
-  "homepage_url": "https://github.com/callumlocke/json-formatter",
+  "homepage_url": "https://github.com/victorhaggqvist/json-formatter",
   "minimum_chrome_version": "21",
   "icons": {
        "128": "icons/128.png",
